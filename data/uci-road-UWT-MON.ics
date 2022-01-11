@@ -1,0 +1,392 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UCI calendar(UWT\, MON)//bulte.net//
+LAST-MODIFIED;VALUE=DATE-TIME:20220111T232902Z
+BEGIN:VEVENT
+SUMMARY:The Princess Maha Chackri Sirindhorn's Cup "Women's Tour of Thaila
+ nd" — W — THA
+DTSTART;VALUE=DATE:20211208
+DTEND;VALUE=DATE:20211211
+UID:the-princess-maha-chackri-sirindhorn-s-cup-women-s-tour-of-thailand-we
+ @bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UAE Tour — M — UAE
+DTSTART;VALUE=DATE:20220220
+DTEND;VALUE=DATE:20220227
+UID:uae-tour-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Omloop Het Nieuwsblad Elite — M — BEL
+DTSTART;VALUE=DATE:20220226
+DTEND;VALUE=DATE:20220227
+UID:omloop-het-nieuwsblad-elite-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Strade Bianche — W — ITA
+DTSTART;VALUE=DATE:20220305
+DTEND;VALUE=DATE:20220306
+UID:strade-bianche-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Strade Bianche — M — ITA
+DTSTART;VALUE=DATE:20220305
+DTEND;VALUE=DATE:20220306
+UID:strade-bianche-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paris-Nice — M — FRA
+DTSTART;VALUE=DATE:20220306
+DTEND;VALUE=DATE:20220314
+UID:paris-nice-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tirreno-Adriatico — M — ITA
+DTSTART;VALUE=DATE:20220307
+DTEND;VALUE=DATE:20220314
+UID:tirreno-adriatico-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Miron Ronde van Drenthe — W — NED
+DTSTART;VALUE=DATE:20220312
+DTEND;VALUE=DATE:20220313
+UID:miron-ronde-van-drenthe-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Milano-Sanremo — M — ITA
+DTSTART;VALUE=DATE:20220319
+DTEND;VALUE=DATE:20220320
+UID:milano-sanremo-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trofeo Alfredo Binda - Comune di Cittiglio — W — ITA
+DTSTART;VALUE=DATE:20220320
+DTEND;VALUE=DATE:20220321
+UID:trofeo-alfredo-binda-comune-di-cittiglio-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Volta Ciclista a Catalunya — M — ESP
+DTSTART;VALUE=DATE:20220321
+DTEND;VALUE=DATE:20220328
+UID:volta-ciclista-a-catalunya-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oxyclean Classic Brugge-De Panne — M — BEL
+DTSTART;VALUE=DATE:20220323
+DTEND;VALUE=DATE:20220324
+UID:oxyclean-classic-brugge-de-panne-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oxyclean Classic Brugge-De Panne — W — BEL
+DTSTART;VALUE=DATE:20220324
+DTEND;VALUE=DATE:20220325
+UID:oxyclean-classic-brugge-de-panne-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:E3 Saxo Bank Classic — M — BEL
+DTSTART;VALUE=DATE:20220325
+DTEND;VALUE=DATE:20220326
+UID:e3-saxo-bank-classic-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gent-Wevelgem in Flanders Fields — M — BEL
+DTSTART;VALUE=DATE:20220327
+DTEND;VALUE=DATE:20220328
+UID:gent-wevelgem-in-flanders-fields-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gent-Wevelgem In Flanders Fields — W — BEL
+DTSTART;VALUE=DATE:20220327
+DTEND;VALUE=DATE:20220328
+UID:gent-wevelgem-in-flanders-fields-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dwars door Vlaanderen - A travers la Flandre — M — BEL
+DTSTART;VALUE=DATE:20220330
+DTEND;VALUE=DATE:20220331
+UID:dwars-door-vlaanderen-a-travers-la-flandre-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ronde van Vlaanderen - Tour des Flandres — W — BEL
+DTSTART;VALUE=DATE:20220403
+DTEND;VALUE=DATE:20220404
+UID:ronde-van-vlaanderen-tour-des-flandres-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ronde van Vlaanderen - Tour des Flandres — M — BEL
+DTSTART;VALUE=DATE:20220403
+DTEND;VALUE=DATE:20220404
+UID:ronde-van-vlaanderen-tour-des-flandres-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Itzulia Basque Country — M — ESP
+DTSTART;VALUE=DATE:20220404
+DTEND;VALUE=DATE:20220410
+UID:itzulia-basque-country-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amstel Gold Race — M — NED
+DTSTART;VALUE=DATE:20220410
+DTEND;VALUE=DATE:20220411
+UID:amstel-gold-race-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amstel Gold Race Ladies Edition — W — NED
+DTSTART;VALUE=DATE:20220410
+DTEND;VALUE=DATE:20220411
+UID:amstel-gold-race-ladies-edition-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paris-Roubaix Femmes — W — FRA
+DTSTART;VALUE=DATE:20220416
+DTEND;VALUE=DATE:20220417
+UID:paris-roubaix-femmes-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paris-Roubaix — M — FRA
+DTSTART;VALUE=DATE:20220417
+DTEND;VALUE=DATE:20220418
+UID:paris-roubaix-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Flèche Wallonne Féminine — W — BEL
+DTSTART;VALUE=DATE:20220420
+DTEND;VALUE=DATE:20220421
+UID:la-fleche-wallonne-feminine-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Flèche Wallonne — M — BEL
+DTSTART;VALUE=DATE:20220420
+DTEND;VALUE=DATE:20220421
+UID:la-fleche-wallonne-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Liège-Bastogne-Liège — M — BEL
+DTSTART;VALUE=DATE:20220424
+DTEND;VALUE=DATE:20220425
+UID:liege-bastogne-liege-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Liège-Bastogne-Liège Femmes — W — BEL
+DTSTART;VALUE=DATE:20220424
+DTEND;VALUE=DATE:20220425
+UID:liege-bastogne-liege-femmes-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour de Romandie — M — SUI
+DTSTART;VALUE=DATE:20220426
+DTEND;VALUE=DATE:20220502
+UID:tour-de-romandie-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eschborn-Frankfurt — M — GER
+DTSTART;VALUE=DATE:20220501
+DTEND;VALUE=DATE:20220502
+UID:eschborn-frankfurt-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giro d'Italia — M — ITA
+DTSTART;VALUE=DATE:20220506
+DTEND;VALUE=DATE:20220530
+UID:giro-d-italia-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Itzulia Women — W — ESP
+DTSTART;VALUE=DATE:20220513
+DTEND;VALUE=DATE:20220516
+UID:itzulia-women-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Durango - Durango Emakumeen Saria — W — ESP
+DTSTART;VALUE=DATE:20220517
+DTEND;VALUE=DATE:20220518
+UID:durango-durango-emakumeen-saria-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vuelta a Burgos Feminas — W — ESP
+DTSTART;VALUE=DATE:20220519
+DTEND;VALUE=DATE:20220523
+UID:vuelta-a-burgos-feminas-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RideLondon Classique — W — GBR
+DTSTART;VALUE=DATE:20220527
+DTEND;VALUE=DATE:20220530
+UID:ridelondon-classique-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Critérium du Dauphiné — M — FRA
+DTSTART;VALUE=DATE:20220605
+DTEND;VALUE=DATE:20220613
+UID:criterium-du-dauphine-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Women's Tour — W — GBR
+DTSTART;VALUE=DATE:20220606
+DTEND;VALUE=DATE:20220612
+UID:women-s-tour-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour de Suisse — M — SUI
+DTSTART;VALUE=DATE:20220612
+DTEND;VALUE=DATE:20220620
+UID:tour-de-suisse-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giro d'Italia Donne — W — ITA
+DTSTART;VALUE=DATE:20220701
+DTEND;VALUE=DATE:20220711
+UID:giro-d-italia-donne-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour de France — M — FRA
+DTSTART;VALUE=DATE:20220701
+DTEND;VALUE=DATE:20220725
+UID:tour-de-france-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour de France Femmes avec Zwift — W — FRA
+DTSTART;VALUE=DATE:20220724
+DTEND;VALUE=DATE:20220801
+UID:tour-de-france-femmes-avec-zwift-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Donostia San Sebastian Klasikoa — M — ESP
+DTSTART;VALUE=DATE:20220730
+DTEND;VALUE=DATE:20220731
+UID:donostia-san-sebastian-klasikoa-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour de Pologne — M — POL
+DTSTART;VALUE=DATE:20220730
+DTEND;VALUE=DATE:20220806
+UID:tour-de-pologne-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Postnord Vårgårda WestSweden TTT — W — SWE
+DTSTART;VALUE=DATE:20220806
+DTEND;VALUE=DATE:20220807
+UID:postnord-vargarda-westsweden-ttt-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Postnord Vårgårda WestSweden RR — W — SWE
+DTSTART;VALUE=DATE:20220807
+DTEND;VALUE=DATE:20220808
+UID:postnord-vargarda-westsweden-rr-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Battle of the North — W — NOR
+DTSTART;VALUE=DATE:20220809
+DTEND;VALUE=DATE:20220815
+UID:battle-of-the-north-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Vuelta ciclista a España — M — ESP
+DTSTART;VALUE=DATE:20220819
+DTEND;VALUE=DATE:20220912
+UID:la-vuelta-ciclista-a-espana-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BEMER Cyclassics — M — GER
+DTSTART;VALUE=DATE:20220821
+DTEND;VALUE=DATE:20220822
+UID:bemer-cyclassics-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GP Lorient Agglomération - Trophée CERATIZIT — W — FRA
+DTSTART;VALUE=DATE:20220827
+DTEND;VALUE=DATE:20220828
+UID:gp-lorient-agglomeration-trophee-ceratizit-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bretagne Classic - Ouest-France — M — FRA
+DTSTART;VALUE=DATE:20220828
+DTEND;VALUE=DATE:20220829
+UID:bretagne-classic-ouest-france-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Benelux Tour  — M — ---
+DTSTART;VALUE=DATE:20220829
+DTEND;VALUE=DATE:20220905
+UID:benelux-tour-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simac Ladies Tour — W — NED
+DTSTART;VALUE=DATE:20220830
+DTEND;VALUE=DATE:20220905
+UID:simac-ladies-tour-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grote prijs Beerens — W — BEL
+DTSTART;VALUE=DATE:20220904
+DTEND;VALUE=DATE:20220905
+UID:grote-prijs-beerens-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ceratizit Challenge by La Vuelta — W — ESP
+DTSTART;VALUE=DATE:20220908
+DTEND;VALUE=DATE:20220912
+UID:ceratizit-challenge-by-la-vuelta-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Prix Cycliste de Québec — M — CAN
+DTSTART;VALUE=DATE:20220909
+DTEND;VALUE=DATE:20220910
+UID:grand-prix-cycliste-de-quebec-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Watersley Womens Challenge — W — NED
+DTSTART;VALUE=DATE:20220909
+DTEND;VALUE=DATE:20220912
+UID:watersley-womens-challenge-wu@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Prix Cycliste de Montréal — M — CAN
+DTSTART;VALUE=DATE:20220911
+DTEND;VALUE=DATE:20220912
+UID:grand-prix-cycliste-de-montreal-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AG TOUR DE LA SEMOIS — W — BEL
+DTSTART;VALUE=DATE:20220916
+DTEND;VALUE=DATE:20220918
+UID:ag-tour-de-la-semois-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Championnats du Monde Route UCI / UCI Road World Championships —
+  MW — AUS
+DTSTART;VALUE=DATE:20220918
+DTEND;VALUE=DATE:20220926
+UID:championnats-du-monde-route-uci-uci-road-world-championships@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour de Romandie — W — SUI
+DTSTART;VALUE=DATE:20221007
+DTEND;VALUE=DATE:20221010
+UID:tour-de-romandie-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Il Lombardia — M — ITA
+DTSTART;VALUE=DATE:20221008
+DTEND;VALUE=DATE:20221009
+UID:il-lombardia-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour of Chongming Island — W — CHN
+DTSTART;VALUE=DATE:20221013
+DTEND;VALUE=DATE:20221016
+UID:tour-of-chongming-island-we@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gree-Tour of Guangxi — M — CHN
+DTSTART;VALUE=DATE:20221013
+DTEND;VALUE=DATE:20221019
+UID:gree-tour-of-guangxi-me@bulte.net
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tour of Guangxi — W — CHN
+DTSTART;VALUE=DATE:20221018
+DTEND;VALUE=DATE:20221019
+UID:tour-of-guangxi-we@bulte.net
+END:VEVENT
+END:VCALENDAR
