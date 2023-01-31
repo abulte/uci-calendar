@@ -46,6 +46,7 @@ def convert(*calendars, year="2023"):
     with open(f"data/uci-road-{'-'.join(calendars)}-{year}.ics", "wb") as ofile:
         ofile.write(cal.to_ical())
 
+    df.to_csv(f"data/uci-road-{'-'.join(calendars)}-{year}.csv")
 
 if __name__ == "__main__":
     run()
