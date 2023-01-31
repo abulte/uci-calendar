@@ -1,6 +1,6 @@
-import csv
-
 from datetime import datetime, timedelta
+
+import pandas as pd
 
 from icalendar import Calendar, Event
 from minicli import cli, run
@@ -8,7 +8,7 @@ from slugify import slugify
 
 
 @cli
-def convert(*calendars):
+def convert(*calendars, year="2023"):
     """
     Convert CSV source to ICS, filtering by calendar.
 
@@ -17,11 +17,11 @@ def convert(*calendars):
     if not calendars:
         calendars = ("UWT", "MON")
 
-    with open("data/uci-road-2022.csv") as ifile:
-        reader = csv.DictReader(ifile, delimiter=";")
-        events = [x for x in reader if x["Calendar"] in calendars]
+    df = pd.read_excel("data/uci-road-2023.xls", skiprows=4)
+    df = df[df.Calendar.isin(calendars)]
+    df = df[df["Date From"].str.endswith(year)]
 
-    if not events:
+    if df.empty:
         print("No matching events found")
         return
 
@@ -30,12 +30,12 @@ def convert(*calendars):
     cal.add("version", "2.0")
     cal.add("last-modified", datetime.now())
 
-    for event in events:
+    for _, event in df.iterrows():
         cal_event = Event()
         slug = slugify(f"{event['Name']} - {event['Category']}")
         print(slug)
         cal_event.add("uid", f"{slug}@bulte.net")
-        category = event["Category"][0] if event["Category"] else "MW"
+        category = event["Category"] or "MW"
         cal_event.add("summary", f"{event['Name']} — {category} — {event['Country']}")
         start = datetime.strptime(event["Date From"], "%d.%m.%Y").date()
         end = datetime.strptime(event["Date To"], "%d.%m.%Y").date() + timedelta(days=1)
@@ -43,7 +43,7 @@ def convert(*calendars):
         cal_event.add("dtend", end)
         cal.add_component(cal_event)
 
-    with open(f"data/uci-road-{'-'.join(calendars)}.ics", "wb") as ofile:
+    with open(f"data/uci-road-{'-'.join(calendars)}-{year}.ics", "wb") as ofile:
         ofile.write(cal.to_ical())
 
 

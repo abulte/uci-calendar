@@ -1,3 +1,5 @@
 minicli
 icalendar
 python-slugify
+pandas
+openpyxl
