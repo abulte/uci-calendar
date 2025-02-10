@@ -6,9 +6,11 @@ from icalendar import Calendar, Event
 from minicli import cli, run
 from slugify import slugify
 
+DATE_FMT = "%m/%d/%Y"
+
 
 @cli
-def convert(*calendars, year="2023"):
+def convert(*calendars, year="2025"):
     """
     Convert CSV source to ICS, filtering by calendar.
 
@@ -17,7 +19,7 @@ def convert(*calendars, year="2023"):
     if not calendars:
         calendars = ("UWT", "MON")
 
-    df = pd.read_excel("data/uci-road-2023.xls", skiprows=4)
+    df = pd.read_excel("data/UCICompetitions_ROA_2025.xls", skiprows=4)
     df = df[df.Calendar.isin(calendars)]
     df = df[df["Date From"].str.endswith(year)]
 
@@ -26,7 +28,7 @@ def convert(*calendars, year="2023"):
         return
 
     cal = Calendar()
-    cal.add("prodid", f"-//UCI calendar({', '.join(calendars)})//bulte.net//")
+    cal.add("prodid", f"-//UCI calendar({', '.join(calendars)})//france.sh//")
     cal.add("version", "2.0")
     cal.add("last-modified", datetime.now())
 
@@ -37,8 +39,8 @@ def convert(*calendars, year="2023"):
         cal_event.add("uid", f"{slug}@bulte.net")
         category = event["Category"] or "MW"
         cal_event.add("summary", f"{event['Name']} — {category} — {event['Country']}")
-        start = datetime.strptime(event["Date From"], "%d.%m.%Y").date()
-        end = datetime.strptime(event["Date To"], "%d.%m.%Y").date() + timedelta(days=1)
+        start = datetime.strptime(event["Date From"], DATE_FMT).date()
+        end = datetime.strptime(event["Date To"], DATE_FMT).date() + timedelta(days=1)
         cal_event.add("dtstart", start)
         cal_event.add("dtend", end)
         cal.add_component(cal_event)
@@ -47,6 +49,7 @@ def convert(*calendars, year="2023"):
         ofile.write(cal.to_ical())
 
     df.to_csv(f"data/uci-road-{'-'.join(calendars)}-{year}.csv")
+
 
 if __name__ == "__main__":
     run()
